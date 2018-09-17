@@ -14,8 +14,11 @@
 
 # Your Code Here:
 
+x <- 3 + 5
 
 # Answer: 
+
+print(x)
 
 # Congratulations, you have completed the first challenge! Go ahead and push your code
 # to your repository and have it verified as this will be the process going forward!
