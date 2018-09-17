@@ -24,6 +24,13 @@
 
 # Your Code Here:
 
+my_table <- read.table("../data/input_data_03.txt")
 
+my_table$sum <- NA
+for (i in 1:nrow(my_table)) {
+  my_table$sum[i] <- my_table$V1[i] + my_table$V2[i]
+}
 
 # Answer:
+
+print(my_table$sum)

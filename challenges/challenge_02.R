@@ -15,5 +15,9 @@
 
 # Your Code Here:
 
+num <- read.table("../data/input_data_02.txt", sep=" ")
+sum <- sum(num$V1)
 
 # Answer:
+
+print(sum)
