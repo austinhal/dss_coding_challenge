@@ -16,8 +16,9 @@
 
 # Your Code Here:
 
-
-
-
+my_data <- read.table("../data/input_data_05.txt")
+f_to_c <- function(x) {(x - 32)*(5 / 9)}
 
 # Answer:
+
+my_data$C <- apply(my_data, 1, f_to_c)

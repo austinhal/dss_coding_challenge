@@ -9,8 +9,10 @@
 
 # Your Code Here:
 
+my_list <- rep(NA, 1000)
+for (i in 1:length(my_list)) {ifelse(i %% 3 == 0 | i %% 5 == 0, my_list[i] <- i, 0)}
 
+# Answer: 234168
 
+print(sum(my_list, na.rm=TRUE))
 
-
-# Answer:

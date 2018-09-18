@@ -35,7 +35,9 @@
 # -7162740 -471266
 
 # Your Code Here:
-
-
+library(dplyr)
+pairs <- read.table("../data/input_data_04.txt")
 
 # Answer:
+
+pairs <- pairs %>% mutate(min=pmin(.$V1, .$V2))
